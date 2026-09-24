@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sự kiện & Media - Khám phá Việt Nam</title>
+
+    <style>
+        /* ==================== BỘ KHUNG CSS TỪ INDEX.HTML ==================== */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #087f5b;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #064e3b;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: #ffd43b;
+        }
+
+        .container {
+            width: 1000px;
+            margin: 30px auto;
+        }
+
+        /* ==================== STYLE CHO TRANG MEDIA & ĐA PHƯƠNG TIỆN ==================== */
+        .media-content {
+            background-color: white;
+            padding: 35px;
+            box-shadow: 0 2px 8px #ccc;
+        }
+
+        /* Tiêu đề bài viết và thông tin tác giả */
+        .article-header {
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+
+        .article-title {
+            color: #087f5b;
+            font-size: 28px;
+            margin: 0 0 10px 0;
+        }
+
+        .article-meta {
+            font-size: 13px;
+            color: #666;
+        }
+
+        .article-meta span {
+            color: #087f5b;
+            font-weight: bold;
+        }
+
+        /* Các phần (Section) nội dung */
+        .media-section {
+            margin-bottom: 35px;
+        }
+
+        .media-section h3 {
+            color: #087f5b;
+            font-size: 20px;
+            border-left: 4px solid #087f5b;
+            padding-left: 10px;
+            margin-bottom: 15px;
+        }
+
+        .media-section p {
+            line-height: 1.6;
+            color: #444;
+        }
+
+        /* Khung Figure & Figcaption cho hình ảnh / video */
+        figure {
+            margin: 0 0 20px 0;
+            text-align: center;
+        }
+
+        figure img,
+        figure video,
+        figure iframe {
+            width: 100%;
+            max-width: 100%;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        figcaption {
+            margin-top: 8px;
+            font-size: 13px;
+            color: #666;
+            font-style: italic;
+        }
+
+        /* Khung phát Audio */
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        /* Thẻ Hastag / Từ khóa */
+        .tags {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px dashed #ccc;
+            font-size: 13px;
+            color: #555;
+        }
+
+        .tags a {
+            color: #087f5b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .tags a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer giữ nguyên từ index.html */
+        footer {
+            margin-top: 40px;
+            background-color: #064e3b;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header chính của website -->
+    <header>
+        <h1>KHÁM PHÁ VIỆT NAM</h1>
+        <p>Những hành trình đáng nhớ đang chờ bạn</p>
+    </header>
+
+    <!-- Thanh điều hướng Navigation -->
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="#">Địa điểm</a>
+        <a href="#">Ẩm thực</a>
+        <a href="media.html" class="active">Sự kiện & Media</a>
+        <a href="register.html">Đăng ký</a>
+    </nav>
+
+    <!-- Khối Container chính -->
+    <div class="container">
+
+        <article class="media-content">
+
+            <!-- Đầu bài viết (Header Bài viết) -->
+            <header class="article-header">
+                <h2 class="article-title">Ngày hội Công nghệ Xanh 2026</h2>
+                <div class="article-meta">
+                    22/04/2026 - Tác giả: <span>Ban tổ chức Blakletterpress</span>
+                </div>
+            </header>
+
+            <!-- Ảnh đại diện sự kiện -->
+            <figure>
+                <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=900&auto=format&fit=crop" alt="Hội trường sự kiện">
+                <figcaption>Hội trường chính trong ngày khai mạc sự kiện năm 2025.</figcaption>
+            </figure>
+
+            <!-- 1. Giới thiệu sự kiện -->
+            <section class="media-section">
+                <h3>Giới thiệu sự kiện</h3>
+                <p>
+                    Ngày hội Công nghệ Xanh 2026 quy tụ các chuyên gia và doanh nghiệp theo đuổi giải pháp công nghệ bền vững. 
+                    Sự kiện diễn ra chuỗi tọa đàm, khu trưng bày sản phẩm và các buổi kết nối 1 on 1 dành cho sinh viên.
+                </p>
+            </section>
+
+            <!-- 2. Video giới thiệu -->
+            <section class="media-section">
+                <h3>Video giới thiệu</h3>
+                <figure>
+                    <!-- Sử dụng thẻ video HTML5 (hoặc video mẫu) -->
+                    <video controls poster="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900&auto=format&fit=crop">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Trình duyệt của bạn không hỗ trợ thẻ video.
+                    </video>
+                </figure>
+            </section>
+
+            <!-- 3. Podcast trò chuyện -->
+            <section class="media-section">
+                <h3>Podcast: Trò chuyện cùng diễn giả</h3>
+                <p>Nghe lại bài phát biểu và vị khách mời chính của chương trình.</p>
+                <audio controls>
+                    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                    Trình duyệt của bạn không hỗ trợ thẻ audio.
+                </audio>
+            </section>
+
+            <!-- 4. Địa điểm tổ chức -->
+            <section class="media-section">
+                <h3>Địa điểm tổ chức</h3>
+                <p>Sự kiện diễn ra tại Hà Nội. Xem bản đồ đường đi bên dưới:</p>
+                <figure>
+                    <!-- Bản đồ nhúng iFrame Google Maps -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.096814183571!2d105.8522933!3d21.0288118!2m3!1f0!0f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1700000000000" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </figure>
+            </section>
+
+            <!-- 5. Hình ảnh các mùa trước -->
+            <section class="media-section">
+                <h3>Hình ảnh các mùa trước</h3>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=900&auto=format&fit=crop" alt="Khu trưng bày">
+                    <figcaption>Khu trưng bày sản phẩm xanh mùa 2025.</figcaption>
+                </figure>
+            </section>
+
+            <!-- Từ khóa / Chủ đề -->
+            <div class="tags">
+                <strong>Chủ đề:</strong> 
+                <a href="#">công nghệ xanh</a>, 
+                <a href="#">phát triển bền vững</a>
+            </div>
+
+        </article>
+
+    </div>
+
+    <!-- Chân trang Footer -->
+    <footer>
+        <p>© 2026 Khám phá Việt Nam</p>
+        <p>Email: contact@khamphavietnam.vn</p>
+    </footer>
+
+</body>
+
+</html>
